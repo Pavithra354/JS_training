@@ -1,29 +1,27 @@
 // object
-let car = {
-  brand: "Toyota",
-  model: "Corolla",
-  year: 2022,
-  color: "Blue",
-  mileage: 15000, // in kilometers
-
-  // Method to display car info
-  displayInfo: function() {
-    console.log(`Car: ${this.brand} ${this.model} (${this.year})`);
-    console.log(`Color: ${this.color}`);
-    console.log(`Mileage: ${this.mileage} km`);
+let student = {
+  name: "Pavithra",
+  age: 21,
+  course: "Computer Science",
+  isGraduated: false,
+  subjects: ["Math", "JavaScript", "Data Structures"],
+  address: {
+    city: "Hyderabad",
+    zip: "500001"
   },
-
-  // Method to drive the car and increase mileage
-  drive: function(distance) {
-    this.mileage += distance;
-    console.log(`Drove ${distance} km. Total mileage is now ${this.mileage} km.`);
+  greet: function () {
+    console.log("Hello, I am " + this.name);
   }
 };
 
-// Using the object
-car.displayInfo();
-car.drive(250);
-car.displayInfo();
+// Accessing properties
+console.log(student.name);         
+console.log(student.subjects[1]);  
+console.log(student.address.city); 
+
+// Calling a method
+student.greet();                   
+
 
 //array
 // Array of favorite foods
