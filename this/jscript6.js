@@ -5,7 +5,7 @@ function Phone(){
     
 }
 
-Phone.prototype.getPhoneInfo = function() {
+Phone.getPhoneInfo = function() {
     console.log("getPhoneInfo this refers to", this);
     console.log(`Phone Brand is ${this.brand} and model is ${this.modelName}`);
 };
