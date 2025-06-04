@@ -1,9 +1,9 @@
-//<!-- //<html>
-    // <head>
-    //     <title>Using For Loop Example</title>
-    // </head>
-    // <body>
-    //     <script> -->
+//<!-- <html>
+    //<head>
+        //<title>Using For Loop Example</title>
+    //</head>
+    //<body>
+         //<script> -->
             // Simple array loop
             let cities = ["Hyderabad", "Bangalore", "Chennai", "Delhi"];
             for (let i = 0; i < cities.length; i++) {
@@ -31,6 +31,6 @@
             for (let i = 0; i < schoolItems.accessories.length; i++) {
                 console.log(schoolItems.accessories[i]);
           }
-//         <!-- //</script>
-//     </body>
-// </html> -->
+         /* //</script>
+    //</body>
+//</html>   */
