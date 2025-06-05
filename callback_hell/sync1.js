@@ -1,9 +1,9 @@
-<html>
-  <head>
-    <title>Callback Sleep Example</title>
-  </head>
-  <body>
-    <script>
+// //<html>
+//   <head>
+//     <title>Callback Sleep Example</title>
+//   </head>
+//   <body>
+//     <script>
       function sleep(milliseconds) {
         const start = new Date().getTime();
         const end = start + milliseconds;
@@ -35,6 +35,6 @@
           submitAssignment();
         });
       });
-    </script>
-  </body>
-</html>
+//     //</script>
+//   </body>
+// </html>
